@@ -1,6 +1,4 @@
-// pages/index.tsx (ou Home.tsx)
 
-import { Menu } from "@/src/components/menu";
 import { Random } from "@/src/components/random";
 import { SearchCategory } from "@/src/components/searchCategory";
 import { SearchWord } from "@/src/components/searchWord";
