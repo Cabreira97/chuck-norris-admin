@@ -1,0 +1,15 @@
+query getSearchWord (
+  $searchWord: String!
+){
+  searchWord(searchWord: $searchWord) {
+   result {
+      categories
+      created_at
+      id
+      value
+      icon_url
+      updated_at
+      url
+    }
+  }
+}
