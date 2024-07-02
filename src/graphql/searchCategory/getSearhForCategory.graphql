@@ -1,0 +1,10 @@
+query getSearchForCategory($category: String!) {
+  searchCategory(category: $category) {
+    categories
+    value
+    url
+    id
+    updated_at
+    icon_url
+  }
+}
